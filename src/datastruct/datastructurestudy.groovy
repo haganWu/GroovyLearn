@@ -1,4 +1,4 @@
-package variable
+package datastruct
 
 import java.lang.reflect.Array
 
