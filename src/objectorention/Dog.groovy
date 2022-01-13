@@ -1,6 +1,6 @@
 package objectorention
 
-class Dog {
+class Dog implements Serializable {
     String name
     Integer age
 
@@ -24,8 +24,6 @@ class Dog {
     def methodMissing(String name, Object args) {
         return "methodMissing() -> the method name is: ${name},the params is:${args}"
     }
-
-
 
 
 //----------------------------- 元编程 End -----------------------------
